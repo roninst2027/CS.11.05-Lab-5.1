@@ -1,10 +1,10 @@
 public class ArrayUtility {
 
     public static void print(int[] array) {
-        if(array.length = 0){
+        if(array.length == 0){
         }
         else{
-            string result = "";
+            String result = "";
             for(int i = 0; i < array.length; i++){
                 result += array[i] + ", ";
             }
